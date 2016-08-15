@@ -1,0 +1,19 @@
+The library is still in development, this version however is usable.
+More details and proper code documentation coming soon, for the moment you can refer to the tests for usage examples.
+
+NOTE To Linux users:
+This library was tested on Mac OS X only, i never even tried to compile on Linux. I'll make sure everything works as soon as possible.
+
+<pre>
+Usage: ./proposer_main [options]
+
+Options:
+  -i N : Proposer id
+  -k N : Exit after proposing N values
+  -s N : Propose values of size N (max %d)", MAX_VALUE_SIZE
+  -r   : Measure average time to propose a values
+</pre>
+
+<code>
+
+</code>
