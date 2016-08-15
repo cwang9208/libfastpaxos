@@ -21,8 +21,12 @@ Options:
   -i N : starts acceptor with id N (default is 0)
 </pre>
 
-<code>
-./acceptor_main -i 0
-./acceptor_main -i 1
-./acceptor_main -i 2
-</code>
+<pre>
+Usage: ./learner_main [options]
+
+Options:
+  -k N : Exits after learning N values
+  -p N : Prints updates every N messages (default:1 = print all)
+  -r   : Do not print the rate when exiting
+  -m   : Mute (overrides -p)
+</pre>
