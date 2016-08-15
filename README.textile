@@ -14,6 +14,15 @@ Options:
   -r   : Measure average time to propose a values
 </pre>
 
-<code>
+<pre>
+Usage: ./acceptor_main [options]
 
+Options:
+  -i N : starts acceptor with id N (default is 0)
+</pre>
+
+<code>
+./acceptor_main -i 0
+./acceptor_main -i 1
+./acceptor_main -i 2
 </code>
