@@ -100,9 +100,9 @@ void propose_value_instrumented() {
     }
     
     printf("Proposed %d values\n", i);
-    printf("Min: %d\n", min);
-    printf("Max: %d\n", max);
-    printf("Avg: %d\n", tot / values_to_propose);
+    printf("Min: %dμs\n", min);
+    printf("Max: %dμs\n", max);
+    printf("Avg: %dμs\n", tot / values_to_propose);
 }
 
 int main (int argc, char const *argv[]) {

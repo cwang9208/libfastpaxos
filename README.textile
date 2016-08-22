@@ -27,7 +27,7 @@ Options:
 Usage: ./learner_main [options]
 
 Options:
-  -k N : Exits after learning N values
+  -k N : Exits after learning N values (default is 100)
   -p N : Prints updates every N messages (default:1 = print all)
   -r   : Do not print the rate when exiting
   -m   : Mute (overrides -p)

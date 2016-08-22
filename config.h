@@ -82,7 +82,7 @@
    Verbosity for libpaxos routines
    from 4 (veeery verbose) to 0 (silent)
 */
-#define VERBOSITY_LEVEL 4
+#define VERBOSITY_LEVEL 0
 
 
 #endif /* _CONFIG_H_ */
