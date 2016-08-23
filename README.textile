@@ -41,5 +41,5 @@ h3. Example
 ./acceptor_main -i 2
 ./learner_main
 ./leader_main
-./proposer_main -i 1 -s 32 -r
+./proposer_main -i 1 -s 32 -k 10000 -r
 </pre>
