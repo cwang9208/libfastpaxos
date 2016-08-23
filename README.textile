@@ -12,7 +12,7 @@ Usage: ./proposer_main [options]
 Options:
   -i N : Proposer id
   -k N : Exit after proposing N values
-  -s N : Propose values of size N (max %d)", MAX_VALUE_SIZE
+  -s N : Propose values of size N (max 8192)
   -r   : Measure average time to propose a values
 </pre>
 
